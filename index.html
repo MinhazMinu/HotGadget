@@ -42,35 +42,61 @@
     <!-- carosoul -->
     <section class="container">
       <div
-        id="carouselExampleControls"
-        class="carousel slide"
+        id="carouselExampleIndicators"
+        class="carousel slide "
+        data-interval="500"
         data-ride="carousel"
       >
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Mackbook Pro</h2>
-            <p>
-              Its Apple pro class laptop! Very fast and light weight. Friendly
-              for all!
-            </p>
-          </div>
-          <div class="col-md-6">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center caro-pad">
+              <div class="col-md-6 ">
+                <h1>Mackbook Pro</h1>
+                <p>Blazzinf fast and feather light Macbook pro!!!</p>
+                <button class="btn-buy">Buy Now &RightArrow;</button>
+              </div>
+              <div class="col-md-6">
                 <img
                   src="./css/img/banner-products/product-1.png"
                   class="d-block w-100"
                   alt="..."
                 />
               </div>
-              <div class="carousel-item">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center caro-pad">
+              <div class="col-md-6">
+                <h1>Mackbook Pro</h1>
+                <p>Blazzinf fast and feather light Macbook pro!!!</p>
+                <button class="btn-buy">Buy Now &RightArrow;</button>
+              </div>
+              <div class="col-md-6">
                 <img
                   src="./css/img/banner-products/slider-1.png"
                   class="d-block w-100"
                   alt="..."
                 />
               </div>
-              <div class="carousel-item">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center caro-pad">
+              <div class="col-md-6 ">
+                <h1>Mackbook Pro</h1>
+                <p>Blazzinf fast and feather light Macbook pro!!!</p>
+                <button class="btn-buy">Buy Now &RightArrow;</button>
+              </div>
+              <div class="col-md-6">
                 <img
                   src="./css/img/banner-products/slider-3.png"
                   class="d-block w-100"
@@ -80,27 +106,169 @@
             </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
+    <!-- Smartphon -->
+    <section class="container" id="product">
+      <div class="head d-flex justify-content-between small-link">
+        <h2>Smartphone</h2>
+        <a href="#">See All</a>
+      </div>
+      <!-- card -->
+      <div class="card-deck">
+        <div class="card d-flex align-items-center ">
+          <div class="card-comp text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/phone/phone-2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 11 Pro</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$999</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center ">
+          <div class="card-com text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/phone/phone-3.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$799</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <div class="card-com text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/phone/phone-1.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nokia 8+</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$699</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LAPTOP -->
+    <section class="container">
+      <div class="head d-flex justify-content-between small-link">
+        <h2>Laptop</h2>
+        <a href="#">See All</a>
+      </div>
+      <!-- card -->
+      <div class="card-deck">
+        <div class="card d-flex align-items-center ">
+          <div class="card-comp text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/laptop/product-1.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Asus VivoBook</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$999</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center ">
+          <div class="card-com text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/laptop/product-2.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade 15</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$2799</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <div class="card-com text-center">
+            <img
+              class="card-img-top"
+              src="./css/img/laptop/product-3.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi mi Notebook Pro</h5>
+              <p class="card-text text-center">
+                his card has supporting text below as a natural lead-in to
+              </p>
+            </div>
+            <div class="card-footer">
+              <h5>$999</h5>
+              <button class="btn-buy">Buy Now &RightArrow;</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <section class="container" id="categories">
+      <div class="head text-center">
+        <h2>
+          categories
+        </h2>
+      </div>
+    </section>
     <!-- jquery -->
     <script src="./js/jquery-3.3.1.min.js"></script>
     <!-- bootstrap js -->
