@@ -49,6 +49,7 @@ carosoul
 }
 
 /* categories */
+
 #categories h2::after {
   display: block;
   height: 6px;
@@ -58,4 +59,18 @@ carosoul
   margin-top: 15px;
   border-radius: 10px;
   content: "";
+}
+#categories h2 {
+  margin-bottom: 80px;
+}
+#catagory-img img {
+  width: 555px;
+}
+.ff {
+  /* margin-top: 80px; */
+  height: 400px;
+}
+p {
+  color: gray;
+  font-size: 14px;
 }
