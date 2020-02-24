@@ -50,6 +50,10 @@ carosoul
 }
 .card img {
   width: 300px;
+  transition: transform 0.3s;
+}
+.card img:hover {
+  transform: scale(1.1);
 }
 .card-footer {
   border: none;
