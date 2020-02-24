@@ -77,3 +77,9 @@ p {
   color: gray;
   font-size: 14px;
 }
+/* 
+form */
+form {
+  background-color: #eeeeee;
+  padding: 60px 20px;
+}
